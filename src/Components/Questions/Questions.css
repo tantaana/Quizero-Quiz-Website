@@ -1,0 +1,20 @@
+.questions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.eye-btn {
+    background-color: burlywood;
+    border-radius: 50%;
+}
+
+.eye-btn:hover {
+    background-color: rgb(184, 148, 101);
+}
+
+@media only screen and (max-width: 700px) {
+    .questions {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
